@@ -1,8 +1,9 @@
-# Fast approximation of Unbalanced optimal-transport and Maximum mean discrepancy
-This contribution presents significant computational accelerations to prominent schemes, which enable the comparison of measures, even with varying masses. 
-Concisely, we employ nonequispaced fast Fourier transform to accelerate the radial kernel convolution in unbalanced optimal transport approximation, building on the Sinkhorn algorithm.
-Accelerated schemes are presented as well for the maximum mean discrepancies involving kernels based on distances.
-By employing nonequispaced fast Fourier transform, our approaches significantly reduce the arithmetic operations to compute the distances from $𝓞(n²)$ to $𝓞(n \log n)$, which enables access to large and high-dimensional data sets.
+# Unbalanced Optimal Transport and Maximum Mean Discrepancies: Interconnections and Rapid Evaluation
+This contribution presents substantial computational advancements to compare measures even with varying masses.
+Specifically, we utilize the nonequispaced fast Fourier transform to accelerate the radial kernel convolution in unbalanced optimal transport approximation, built upon the Sinkhorn algorithm. We also present accelerated schemes for maximum mean discrepancies involving kernels.
+Our approaches reduce the arithmetic operations needed to compute distances from $𝓞(n²)$ to $𝓞(n \log n)$, opening the door to handle large and high-dimensional datasets efficiently. 
+Furthermore, we establish robust connections between transportation problems, encompassing Wasserstein distance and unbalanced optimal transport, and maximum mean discrepancies.
+This empowers practitioners with compelling rationale to opt for adaptable distances.
 
 ### Prerequisites
 
