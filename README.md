@@ -17,7 +17,8 @@ The "NFFT3.jl" package has be installed. For more details, please refer to  [htt
 
 When you are using this code, please cite the paper.
 
-<a id="1">[1]</a> Rajmadan Lakshmanan, and Alois Pichler. (2023). [Fast Approximation of Unbalanced Optimal Transport and Maximum Mean Discrepancies](https://arxiv.org/pdf/2306.13618v1.pdf). 
+<a id="1">[1]</a> Rajmadan Lakshmanan, and Alois Pichler. (2024). [Unbalanced Optimal Transport and Maximum Mean
+Discrepancies: Interconnections and Rapid Evaluation](https://arxiv.org/pdf/2306.13618). 
 
 This paper also comprehensively explains the implementation of NFFT accelerated UOT approximation and MMD.
 
